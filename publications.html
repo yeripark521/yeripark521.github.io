@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yeri Park — Publications</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+* { box-sizing: border-box; }
+body { margin: 0; }
+a { color: oklch(78% 0.16 160); }
+a:hover { color: oklch(78% 0.16 70); }
+</style>
+</head>
+<body>
+<div style="min-height:100vh;display:flex;flex-direction:column;background:oklch(14% 0.012 240);color:oklch(93% 0.01 200);font-family:'IBM Plex Sans',sans-serif;">
+<header style="position:sticky;top:0;z-index:50;background:oklch(14% 0.012 240 / 0.94);backdrop-filter:blur(8px);border-bottom:1px solid oklch(32% 0.02 220);display:flex;align-items:center;justify-content:space-between;padding:16px 40px;flex-wrap:wrap;gap:16px;font-family:'IBM Plex Mono',monospace;">
+<a href="./index.html" style="display:flex;align-items:baseline;gap:8px;text-decoration:none;color:oklch(93% 0.01 200);flex-shrink:0;white-space:nowrap;">
+<span style="color:oklch(78% 0.16 160);">$</span>
+<span style="font-size:14px;font-weight:700;letter-spacing:0.02em;">Yeri Park</span>
+<span style="font-size:11px;color:oklch(65% 0.015 200);">— ML System Engineer</span>
+</a>
+<nav style="display:flex;align-items:center;gap:22px;flex-wrap:wrap;">
+<a href="./index.html" style="font-size:12px;letter-spacing:0.03em;text-decoration:none;color:oklch(65% 0.015 200);font-weight:500;">About</a>
+<a href="./experience.html" style="font-size:12px;letter-spacing:0.03em;text-decoration:none;color:oklch(65% 0.015 200);font-weight:500;">Backgrounds</a>
+<a href="./publications.html" style="font-size:12px;letter-spacing:0.03em;text-decoration:none;color:oklch(93% 0.01 200);font-weight:700;border-bottom:2px solid oklch(78% 0.16 160);padding-bottom:4px;">Publications</a>
+<a href="./projects.html" style="font-size:12px;letter-spacing:0.03em;text-decoration:none;color:oklch(65% 0.015 200);font-weight:500;">Projects</a>
+<a href="./contact.html" style="font-size:12px;letter-spacing:0.03em;text-decoration:none;color:oklch(65% 0.015 200);font-weight:500;">Contact</a>
+<a href="#" style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.03em;text-decoration:none;color:oklch(15% 0.02 160);background:oklch(78% 0.16 160);padding:9px 16px;border:1px solid oklch(78% 0.16 160);white-space:nowrap;" title="Blog — add link">Blog</a>
+<a href="./cv.html" style="font-family:'IBM Plex Mono',monospace;font-size:12px;letter-spacing:0.03em;text-decoration:none;color:oklch(98% 0 0);background:oklch(72% 0.22 40);padding:9px 16px;border:1px solid oklch(72% 0.22 40);white-space:nowrap;">Resume</a>
+</nav>
+</header>
+<main style="flex:1;">
+<section style="max-width:1120px;margin:0 auto;padding:72px 48px 24px;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:oklch(78% 0.16 160);margin-bottom:12px;">$ ls publications/</div>
+<h1 style="font-size:clamp(32px,5vw,48px);font-weight:700;margin:0;">Featured Systems &amp; Publications</h1>
+</section>
+
+<section style="max-width:1120px;margin:0 auto;padding:24px 48px 64px;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:oklch(78% 0.16 160);margin-bottom:16px;">$ systems --highlights</div>
+<div style="display:flex;flex-direction:column;">
+
+<div style="padding:22px 0;border-top:1px solid oklch(24% 0.015 220);">
+<h3 style="margin:0 0 8px;font-size:16.5px;font-weight:700;">Mixed-Precision Quantization &amp; Structured Pruning for Autonomous-Driving DNNs</h3>
+<p style="margin:0;font-size:14.5px;line-height:1.65;color:oklch(75% 0.01 200);max-width:760px;">Deployed INT8/FP8 mixed-precision quantization and N:M structured sparsity pruning for production autonomous-driving networks, reducing real-time inference latency and memory footprint on NVIDIA Orin and Qualcomm SoCs.</p>
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">QUANTIZATION</span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">PRUNING</span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">NVIDIA ORIN</span>
+</div>
+</div>
+
+<div style="padding:22px 0;border-top:1px solid oklch(24% 0.015 220);">
+<h3 style="margin:0 0 8px;font-size:16.5px;font-weight:700;">Scalable VLM/VLA Inference Across GPU Clusters and Edge Devices</h3>
+<p style="margin:0;font-size:14.5px;line-height:1.65;color:oklch(75% 0.01 200);max-width:760px;">Built an automated layer-wise quantization framework with scalable scheduling for VLM/VLA inference spanning GPU server clusters and edge devices, cutting end-to-end inference overhead while maintaining task accuracy.</p>
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">SCHEDULING</span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">GPU CLUSTERS</span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">VLM/VLA</span>
+</div>
+</div>
+
+<div style="padding:22px 0;border-top:1px solid oklch(24% 0.015 220);border-bottom:1px solid oklch(24% 0.015 220);">
+<h3 style="margin:0 0 8px;font-size:16.5px;font-weight:700;">RTOS-Based Multimodal Perception Framework for Autonomous Driving</h3>
+<p style="margin:0;font-size:14.5px;line-height:1.65;color:oklch(75% 0.01 200);max-width:760px;">Architected an RTOS-based SW framework across NVIDIA, Qualcomm, and TI platforms, integrating car-network interfaces and multimodal LiDAR–camera perception; accelerated critical kernels with CUDA and OpenCL for real-time 3D object detection.</p>
+<div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:12px;">
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">RTOS</span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">CUDA / OPENCL</span>
+<span style="font-family:'IBM Plex Mono',monospace;font-size:11px;padding:5px 10px;border:1px solid oklch(32% 0.02 220);color:oklch(78% 0.16 160);">LIDAR-CAMERA FUSION</span>
+</div>
+</div>
+
+</div>
+</section>
+
+<section style="max-width:1120px;margin:0 auto;padding:0 48px 96px;">
+<div style="font-family:'IBM Plex Mono',monospace;font-size:13px;color:oklch(78% 0.16 160);margin-bottom:16px;">$ publications</div>
+<div style="border:1px dashed oklch(32% 0.02 220);padding:28px;">
+<p style="margin:0;font-size:14.5px;line-height:1.7;color:oklch(65% 0.015 200);">No peer-reviewed publications yet — first-authored research is planned during Ph.D. study in computer architecture and efficient AI systems. This page will update as work is published.</p>
+</div>
+</section>
+</main>
+<footer style="border-top:1px solid oklch(32% 0.02 220);padding:32px 40px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-family:'IBM Plex Mono',monospace;color:oklch(65% 0.015 200);font-size:12px;">
+<div>© 2026 Yeri Park · atlanta, united states</div>
+<div style="display:flex;gap:20px;flex-wrap:wrap;">
+<a href="mailto:yeripark521@gmail.com" style="color:oklch(65% 0.015 200);text-decoration:none;">yeripark521@gmail.com</a>
+<a href="https://www.linkedin.com/in/yeri-park" target="_blank" style="color:oklch(65% 0.015 200);text-decoration:none;">linkedin ↗</a>
+<a href="./assets/Yeri-Park-CV.pdf" download="" style="color:oklch(65% 0.015 200);text-decoration:none;">download cv ↓</a>
+</div>
+</footer>
+</div>
+</body>
+</html>
