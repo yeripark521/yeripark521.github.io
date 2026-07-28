@@ -16,8 +16,8 @@ The site deliberately shows an empty labelled placeholder when a project/profile
 
 ## Publish to GitHub Pages
 
-1. Commit and push this repository's `main` branch to `py6578/yeripark.github.io`.
+1. Commit and push this repository's `main` branch to `yeripark521/yeripark521.github.io`.
 2. In GitHub: **Settings → Pages → Build and deployment**, select **Deploy from a branch**, then choose `main` and `/ (root)`.
-3. The website will become available at `https://py6578.github.io/yeripark.github.io/`.
+3. The website will become available at `https://yeripark521.github.io/`.
 
-For a root personal site URL (`https://py6578.github.io/`), rename the GitHub repository to `py6578.github.io` before publishing.
+Because this is a personal-site repository, its root URL is `https://yeripark521.github.io/`.
