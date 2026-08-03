@@ -12,6 +12,15 @@
 body { margin: 0; }
 a { color: oklch(78% 0.16 160); }
 a:hover { color: oklch(78% 0.16 70); }
+@media (max-width: 768px) {
+  header { padding-left: 20px !important; padding-right: 20px !important; }
+  header nav { gap: 12px !important; }
+  header nav [style*="padding:9px 16px;border:1px solid"] { padding: 6px 12px !important; font-size: 11px !important; }
+  footer { padding-left: 20px !important; padding-right: 20px !important; }
+  section { padding-left: 20px !important; padding-right: 20px !important; }
+  .cv-frame { display: none !important; }
+  .cv-fallback { display: flex !important; }
+}
 </style>
 </head>
 <body>
@@ -41,7 +50,11 @@ a:hover { color: oklch(78% 0.16 70); }
 <a href="./assets/Yeri-Park-CV.pdf?v=3" download="" style="font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:0.05em;text-decoration:none;color:oklch(15% 0.02 70);background:oklch(78% 0.16 70);padding:12px 22px;border:1px solid oklch(78% 0.16 70);white-space:nowrap;">download pdf ↓</a>
 </section>
 <section style="flex:1;max-width:960px;margin:0 auto;width:100%;padding:12px 40px 48px;display:flex;">
-<iframe src="./assets/Yeri-Park-CV.pdf?v=3" title="Yeri Park CV" style="width:100%;min-height:80vh;border:1px solid oklch(32% 0.02 220);background:oklch(20% 0.01 240);"></iframe>
+<iframe class="cv-frame" src="./assets/Yeri-Park-CV.pdf?v=3" title="Yeri Park CV" style="width:100%;min-height:80vh;border:1px solid oklch(32% 0.02 220);background:oklch(20% 0.01 240);"></iframe>
+<div class="cv-fallback" style="display:none;width:100%;min-height:50vh;border:1px solid oklch(32% 0.02 220);background:oklch(20% 0.01 240);flex-direction:column;align-items:center;justify-content:center;gap:16px;text-align:center;padding:40px 24px;">
+<p style="margin:0;font-size:14px;color:oklch(70% 0.01 200);max-width:320px;">Your browser can't preview the PDF inline here.</p>
+<a href="./assets/Yeri-Park-CV.pdf?v=3" target="_blank" rel="noopener" style="font-family:'IBM Plex Mono',monospace;font-size:13px;letter-spacing:0.05em;text-decoration:none;color:oklch(15% 0.02 70);background:oklch(78% 0.16 70);padding:12px 22px;border:1px solid oklch(78% 0.16 70);white-space:nowrap;">open pdf ↗</a>
+</div>
 </section>
 </main>
 <footer style="border-top:1px solid oklch(32% 0.02 220);padding:32px 40px;display:flex;flex-wrap:wrap;justify-content:space-between;gap:16px;font-family:'IBM Plex Mono',monospace;color:oklch(65% 0.015 200);font-size:12px;">
