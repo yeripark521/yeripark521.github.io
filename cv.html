@@ -3,6 +3,9 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>Yeri Park — CV</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
@@ -66,5 +69,18 @@ a:hover { color: oklch(78% 0.16 70); }
 </div>
 </footer>
 </div>
+<script>
+(function() {
+  var t = Date.now();
+  var pdfUrl = './assets/Yeri-Park-CV.pdf?t=' + t;
+  var iframe = document.querySelector('.cv-frame');
+  if (iframe) iframe.src = pdfUrl;
+  var openBtn = document.querySelector('.cv-fallback a');
+  if (openBtn) openBtn.href = pdfUrl;
+  document.querySelectorAll('a[download]').forEach(function(a) {
+    if (a.href.indexOf('Yeri-Park-CV.pdf') !== -1) a.href = pdfUrl;
+  });
+})();
+</script>
 </body>
 </html>
